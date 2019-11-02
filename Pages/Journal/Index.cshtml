@@ -18,9 +18,10 @@
         </select>
 
         Keyword: <input type="text" asp-for="SearchString" />
+
+        Sort: <select asp-for="SortMeth" asp-items="Model.SortList"></select>
+
         <input type="submit" value="Filter" />
-        
-        <select ></select>
     </p>
 </form>
 
